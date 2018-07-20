@@ -1,0 +1,111 @@
+<ion-header>
+  <ion-navbar color="primary">
+    <ion-title text-center>Leden van de CTV Groep</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content class="list-users-page">
+
+  <ion-list>
+
+    <h2 text-center>Maandavond Bootcamp:</h2>
+    <h4 text-center>09-07-2018</h4>
+    <p></p>
+      <ion-item>
+        <ion-avatar item-start>
+          <img src="assets/imgs/Floris_Kooij.jpg">
+        </ion-avatar>
+        <ion-label>            
+          <h2>Floris Kooij</h2>
+          <p>Credits : 10</p>     
+        </ion-label>
+        <ion-checkbox color="dark" checked="true" item-end></ion-checkbox>
+      </ion-item>
+      
+
+      <ion-item>
+        <ion-avatar item-start>
+            <img src="assets/imgs/Maik_Lieshout.jpg">
+        </ion-avatar>
+        <ion-label>   
+          <h2>Maik Van Lieshout</h2>
+          <!-- <p>Liever een goeie bank dan een warm bed!</p> -->
+          <p>Credits : 5</p>
+        </ion-label>
+        <ion-checkbox color="dark" checked="true" item-end></ion-checkbox>
+      </ion-item>
+
+      <ion-item>
+        <ion-avatar item-start>
+            <img src="assets/imgs/Nick_Lamers.jpg">
+        </ion-avatar> 
+        <ion-label>
+          <h2>Nick Lamers</h2>
+          <!-- <p>Sleeeeeep is for the weak!</p> -->
+          <p>Credits : 2</p>
+        </ion-label>
+        <ion-checkbox color="dark" checked="true" item-end></ion-checkbox>
+      </ion-item>
+
+      <ion-item>
+        <ion-avatar item-start>
+            <img src="assets/imgs/Coen_Poot.jpg">
+        </ion-avatar>
+        <ion-label>
+          <h2>Coen Poot</h2>
+          <!-- <p>Je kunt nooit te veel gainen!</p> -->
+          <p>Credits : <ion-icon name="infinite"></ion-icon> </p>
+        </ion-label>
+        <ion-checkbox color="dark" checked="true" item-end></ion-checkbox>
+      </ion-item>
+
+  </ion-list>
+
+  <ion-content text-center>
+    <button ion-button color="primary" block (click)="doConfirm()">Confirmatie : Credits</button>
+  </ion-content>
+
+</ion-content>
+
+<!-- 
+<ion-item>
+  <ion-list>
+
+    <ion-item>
+      <ion-thumbnail item-start>
+        <img src="assets/img/Floris_Kooij.jpg">
+      </ion-thumbnail>
+      <h2>COO • CTV</h2>
+      <p>Floris Kooij</p>
+      <button ion-button clear item-end>View</button>
+    </ion-item>
+
+    <ion-item>
+      <ion-thumbnail item-start>
+        <img src="assets/img/Maik_Lieshout.jpg">
+      </ion-thumbnail>
+      <h2>CTO • CTV</h2>
+      <p>Maik Van Lieshout</p>
+      <button ion-button clear item-end>View</button>
+    </ion-item>
+
+    <ion-item>
+      <ion-thumbnail item-start>
+        <img src="assets/img/Nick_Lamers.jpg">
+      </ion-thumbnail>
+      <h2>CFO • CTV</h2>
+      <p>Nick Lamers</p>
+      <button ion-button clear item-end>View</button>
+    </ion-item>
+
+    <ion-item>
+      <ion-thumbnail item-start>
+        <img src="assets/img/Coen_Poot.jpg">
+      </ion-thumbnail>
+      <h2>CEO • CTV</h2>
+      <p>Coen Poot</p>
+      <button ion-button clear item-end>View</button>
+    </ion-item>
+    
+</ion-list>
+</ion-item> -->
