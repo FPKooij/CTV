@@ -1,0 +1,39 @@
+<ion-header>
+  <ion-navbar color="ctv">
+    <ion-title text-center>
+      Bootcamp Sessions
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+
+<ion-list>
+  <ion-item>
+    <ion-thumbnail item-start>
+      <img src="assets/imgs/Training_2_Bootcamp.jpg">
+    </ion-thumbnail>
+    <h2>Session 2</h2>
+    <p>Maandagavond</p>
+    <p>02-7-2018</p>
+    <button ion-button color="danger">Confirmatie : Nee</button>
+    <button ion-button clear item-end (click)="openModal({charNum: 0})">View</button>
+  </ion-item>
+
+    
+  <ion-item>
+    <ion-thumbnail item-start>
+      <img src="assets/imgs/Training_1_Bootcamp.jpg">
+    </ion-thumbnail>
+    <h2>Session 1</h2>
+    <p>Maandagavond</p>
+    <p>25-6-2018</p>
+    <button ion-button color="secondary">Confirmatie : Ja</button>
+    <button ion-button clear item-end (click)="openModal({charNum: 1})">View</button>
+  </ion-item>
+
+
+</ion-list>
+
+</ion-content>
+    

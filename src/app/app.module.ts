@@ -6,6 +6,8 @@ import { MyApp } from './app.component';
 import { UsersPage } from '../pages/users/users';
 import { HomePage } from '../pages/home/home';
 import { UpdatesPage } from '../pages/updates/updates';
+import { ModalContentPage } from '../pages/sessions/sessions';
+import { SessionsPage } from '../pages/sessions/sessions';
 import { SettingsPage } from '../pages/settings/settings';
 import { TabsPage } from '../pages/tabs/tabs';
 
@@ -18,6 +20,8 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     UsersPage,
     HomePage,
     UpdatesPage,
+    ModalContentPage,
+    SessionsPage,
     SettingsPage,
     TabsPage
   ],
@@ -31,6 +35,8 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     UsersPage,
     HomePage,
     UpdatesPage,
+    ModalContentPage,
+    SessionsPage,
     SettingsPage,
     TabsPage
   ],
